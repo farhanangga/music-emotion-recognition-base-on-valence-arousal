@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+tensorflow==2.21.0
+keras==3.11.3
+
+numpy
+librosa
+soundfile
+
+pillow
+scikit-learn
+h5py

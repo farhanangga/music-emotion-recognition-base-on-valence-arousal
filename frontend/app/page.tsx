@@ -125,7 +125,7 @@ export default function Home() {
       );
 
       const response = await fetch(
-        "http://localhost:8000/predict",
+        `${process.env.NEXT_PUBLIC_API_MER_URL}/predict`,
         {
           method: "POST",
           body: formData,

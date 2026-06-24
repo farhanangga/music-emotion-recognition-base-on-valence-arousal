@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Next.js
+.next/
+node_modules/
+
+# Build
+dist/
+build/
+
+# Model
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
